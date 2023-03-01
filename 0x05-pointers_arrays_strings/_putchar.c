@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _putchar - pritns the character
+ * _putchar - prints the character
  * @c: the character to be printed
  * Return: 1 on success
  * On error, -1 is returned, and errno is set appropriately
