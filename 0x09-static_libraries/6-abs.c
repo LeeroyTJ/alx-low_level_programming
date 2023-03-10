@@ -1,19 +1,10 @@
-#!/bin/bash
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
-/**
- * _abs - computes the absolute value of an integer
- * @c: the number to be computed
- * Return: Absolute value of the number or zero
- */
-int _abs(int c)
+int _abs(int n)
 {
-	if (c < 0)
-	{
-		int abs_val;
-
-		abs_val = c * -1;
-		return (abs_val);
-	}
-	return (c);
+	return abs(n);
 }

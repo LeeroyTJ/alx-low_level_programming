@@ -1,21 +1,10 @@
-#!/bin/bash
 #include "main.h"
-
-/**
- * _strchr - locates a character in a string
- * @s: the string
- * @c: the character
- * Return: Always 0 on success
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 char *_strchr(char *s, char c)
 {
-	int i = 0;
-
-	for (; s[i] >= '\0'; i++)
-	{
-		if (s[i] == c)
-			return (&s[i]);
-	}
-	return (0);
+	return strchr(s, c);
 }

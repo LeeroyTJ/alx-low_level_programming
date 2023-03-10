@@ -1,16 +1,10 @@
-#!/bin/bash
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
-
-/**
- * _putchar - prints the character
- * @c: the character to be printed
- * Return: 1 on success
- * On error, -1 is returned, and errno is set appropriately
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 int _putchar(char c)
 {
-	return (write(1, &c, -1));
+	return putchar(c);
 }

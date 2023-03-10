@@ -1,18 +1,10 @@
-#!/bin/bash
 #include "main.h"
-
-/**
- * _islower - checks for lowercase character
- *@c: character to be checked
- * Return: 1 On success
- * Or returns 0 otherwise
- */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
-	{
-		return (1);
-	}
-	return (0);
+	return (c >= 'a' && c <= 'z');
 }
