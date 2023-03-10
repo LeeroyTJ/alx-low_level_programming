@@ -6,5 +6,5 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	return (s, accept);
+	return strpbrk (s, accept);
 }
