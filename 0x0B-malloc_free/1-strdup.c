@@ -5,7 +5,7 @@
 /**
  * _strlen - count array
  * @s: array of elements
- * return: 1
+ * Return: 1
  */
 int _strlen(char *s)
 {
